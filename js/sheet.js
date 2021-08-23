@@ -17,12 +17,14 @@
        // appendData(data);
        var value_array = data.values;
        var p=new Object();
-
+    
        for(var i=0; i<value_array.length;i=i+1)
        {
           
            var small_array=value_array[i];
-           p.(small_array[0])=small_array[1];
+            let prop=small_array[0];
+            p[prop]=small_array[1];
+         
 
            
        }
