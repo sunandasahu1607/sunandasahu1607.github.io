@@ -14,7 +14,7 @@
         return response.json();
     })
     .then(function (data) {
-       // appendData(data);
+       
        var value_array = data.values;
        var p=new Object();
     
@@ -24,11 +24,9 @@
            var small_array=value_array[i];
             let prop=small_array[0];
             p[prop]=small_array[1];
-         
-
            
        }
-       console.log(p);
+       appendData(p);
     })
     .catch(function (err) {
         console.log('error: ' + err);
@@ -37,11 +35,14 @@
 
     
 function appendData(data) {
-    var mainContainer = document.getElementById("myData");
-    for (var i = 0; i < data.length; i++) {
-        var div = document.createElement("div");
-        div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-        mainContainer.appendChild(div);
-    }
+    document.getElementById("my_name").innerHTML=data.name;
+    document.getElementById("my_title").innerHTML=data.title;
+    document.getElementById("my_intro").innerHTML=data.intro;
+
+    // for (var i = 0; i < data.length; i++) {
+    //     var div = document.createElement("div");
+    //     div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+    //     mainContainer.appendChild(div);
+    // }
 }
     
