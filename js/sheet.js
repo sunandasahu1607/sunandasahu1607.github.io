@@ -39,6 +39,9 @@ function appendData(data) {
     document.getElementById('greeting').innerHTML=data.greeting;
     document.getElementById('my_title').innerHTML=data.title;
     document.getElementById('my_intro').innerHTML=data.intro;
+    document.getElementById('phone').innerHTML=data.phone;
+    document.getElementById('email').innerHTML=data.email;
+    document.getElementById('address').innerHTML=data.address;
 
     // for (var i = 0; i < data.length; i++) {
     //     var div = document.createElement("div");
