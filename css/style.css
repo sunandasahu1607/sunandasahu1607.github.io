@@ -20,15 +20,15 @@ body , .p-normal , p , a{
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 .p-large{
   font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 20px;
 line-height: 29px;
 }
 
@@ -40,13 +40,6 @@ font-size: 14px;
 line-height: 17px;
 }
 
-p, .paragraph {
-  font-weight: 400;
-  color: #4c4c4c;
-  font-size: 15px;
-  line-height: 1.8;
-  font-family: "Inter", sans-serif;
-}
 
 p-lg, .paragraph-lg {
   font-size: 22px;
