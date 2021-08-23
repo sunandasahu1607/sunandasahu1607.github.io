@@ -35,7 +35,7 @@
 
     
 function appendData(data) {
-    document.getElementById('my_name').innerHTML=data.name;
+   // document.getElementById('my_name').innerHTML=data.name;
     document.getElementById('my_title').innerHTML=data.title;
     document.getElementById('my_intro').innerHTML=data.intro;
 
