@@ -16,12 +16,28 @@ VERSION:	Versoin Number
   font-display: swap;
 }
 
-body {
-  /* line-height: 1.2;
+body , .p-normal , p , a{
   font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased; */
-  font-size: 15px;
-  color: #4c4c4c;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.p-large{
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+}
+
+.p-small{
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
 }
 
 p, .paragraph {
@@ -36,14 +52,28 @@ p-lg, .paragraph-lg {
   font-size: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #333333;
-  /* font-family: "Playfair Display", serif; */
-  line-height: 1.2;
+h1 , .h1{
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 82px;
+line-height: 99px;
 }
 
-h1, .h1 {
-  font-size: 80px;
+h2 , .h2 {
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 77px;
+}
+
+h3 , .h3 {
+  font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
 }
 
 @media (max-width: 991px) {
