@@ -15,7 +15,8 @@
     })
     .then(function (data) {
        // appendData(data);
-       console.log(data.values)
+       var jsonString = JSON.stringify(data.values);
+       console.log(jsonString);
     })
     .catch(function (err) {
         console.log('error: ' + err);
