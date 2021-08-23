@@ -15,8 +15,20 @@
     })
     .then(function (data) {
        // appendData(data);
-       var jsonString = JSON.stringify(data.values);
-       console.log(jsonString);
+       var value_array = data.values;
+       var p=new Object();
+
+       for(var i=0; i<value_array.length;i=i+1)
+       {
+          
+           var small_array=value_array[i];
+           var label=small_array[0];
+           var value=small_array[1];
+           p.label=value;
+
+           
+       }
+       console.log(p);
     })
     .catch(function (err) {
         console.log('error: ' + err);
