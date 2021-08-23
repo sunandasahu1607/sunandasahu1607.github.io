@@ -22,8 +22,7 @@
        {
           
            var small_array=value_array[i];
-           var label=small_array[0];
-           p.small_array[0]=value;
+           p.(small_array[0])=small_array[1];
 
            
        }
