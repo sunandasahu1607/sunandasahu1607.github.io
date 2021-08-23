@@ -15,7 +15,7 @@
     })
     .then(function (data) {
        // appendData(data);
-       console.log(data)
+       console.log(data.values)
     })
     .catch(function (err) {
         console.log('error: ' + err);
