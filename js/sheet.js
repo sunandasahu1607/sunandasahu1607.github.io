@@ -62,7 +62,7 @@ function appendData(data) {
       
         // Fade in
         fade.style.opacity = 1;
-    },500);
+    },200);
 }
     
 
