@@ -12,7 +12,8 @@
     +api_key;
 
     
-
+    var fade = document.querySelector('.fade');
+    fade.style.opacity = 0;
 
     fetch(contentRepoURL)
     .then(function (response) {
@@ -40,7 +41,7 @@
 
     
 function appendData(data) {
-    var fade = document.querySelector('.fade');
+    
     
 
     // for (var i = 0; i < data.length; i++) {
@@ -48,7 +49,7 @@ function appendData(data) {
     //     div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
     //     mainContainer.appendChild(div);
     // }
-    fade.style.opacity = 1;
+   
 
     setTimeout(function(){ 
         document.getElementById('my_name').innerHTML=data.name;
