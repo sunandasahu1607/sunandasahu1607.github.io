@@ -132,11 +132,17 @@
    var out1='';
  for (var i = 4; i <= 22; i++) {
 
-  out1 +=' <object data="project-1/Slide'+i+'.SVG" width="100%"> </object>'
+  out1 +='  <object data="project-1/Slide'+i+'.SVG" width="100%"> </object>'
             
         }
         document.getElementById('slide_list').innerHTML = out1;
-
+        
+        
+        var tspan_elements = document.getElementsByTagName('tspan');
+        for(i=0;i<tspan_elements.length;i++)
+        {
+          tspan_elements[i].setAttribute("font-family", "Calibri,Calibri_MSFontService,sans-serif");
+        }
 </script>
 
 </body>
