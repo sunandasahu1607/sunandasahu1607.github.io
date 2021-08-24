@@ -1,1 +1,40 @@
-<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="hidden"><defs><clipPath id="clip0"><rect x="0" y="0" width="1280" height="720"/></clipPath></defs><g clip-path="url(#clip0)"><rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/><text fill="#404040" font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="16" transform="translate(97.6 209)">Test scenarios spanning multiple apps requiring sharing of data, results across diverse frameworks was the <tspan font-size="16" x="0" y="17">primary need for coming up with the platform. Some key challenges were:</tspan><tspan fill="#002060" font-size="37" x="0" y="-91">What were the challenges</tspan><tspan fill="#ED7D31" font-weight="700" font-size="19" x="0" y="-55">Highlights</tspan><tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="113">•</tspan><tspan font-size="16" x="28.2755" y="113">Harmonizing the </tspan><tspan font-weight="700" font-size="16" x="139.609" y="113">disparity in execution </tspan><tspan font-size="16" x="286.309" y="113">times of different tests</tspan><tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="152">•</tspan><tspan font-weight="700" font-size="16" x="28.2755" y="152">Limited reusability </tspan>with libraries getting siloed in projects<tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="191">•</tspan><tspan font-weight="700" font-size="16" x="28.2755" y="191">High dependency on Jenkins </tspan><tspan font-size="16" x="220.942" y="191">for orchestrating</tspan><tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="231">•</tspan><tspan font-weight="700" font-size="16" x="28.2755" y="231">Frequent hygiene issues </tspan>with test code check-ins holding up the deployment pipeline<tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="270">•</tspan><tspan font-weight="700" font-size="16" x="28.2755" y="270">Ensuring consistency</tspan><tspan font-size="16" x="169.655" y="270">and best practices in test development across projects</tspan><tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="309">•</tspan><tspan font-weight="700" font-size="16" x="28.2755" y="309">Consolidated reporting</tspan></text></g></svg>
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 0 1280 720">
+    <defs>
+        <clipPath id="clip0">
+            <rect x="0" y="0" width="1280" height="720" />
+        </clipPath>
+    </defs>
+    <g clip-path="url(#clip0)">
+        <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF" /><text fill="#404040"
+            font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400" font-size="16"
+            transform="translate(97.6 209)">Test scenarios spanning multiple apps requiring sharing of data, results
+            across diverse frameworks was the <tspan font-size="16" x="0" y="17">primary need for coming up with the
+                platform. Some key challenges were:</tspan>
+            <tspan fill="#002060" font-size="37" x="0" y="-91">What were the challenges</tspan>
+            <tspan fill="#ED7D31" font-weight="700" font-size="19" x="0" y="-55">Highlights</tspan>
+            <tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451"
+                y="113">•</tspan>
+            <tspan font-size="16" x="28.2755" y="113">Harmonizing the </tspan>
+            <tspan font-weight="700" font-size="16" x="139.609" y="113">disparity in execution </tspan>
+            <tspan font-size="16" x="286.309" y="113">times of different tests</tspan>
+            <tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451"
+                y="152">•</tspan>
+            <tspan font-weight="700" font-size="16" x="28.2755" y="152">Limited reusability </tspan>with libraries
+            getting siloed in projects<tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif"
+                font-size="14" x="-1.72451" y="191">•</tspan>
+            <tspan font-weight="700" font-size="16" x="28.2755" y="191">High dependency on Jenkins </tspan>
+            <tspan font-size="16" x="220.942" y="191">for orchestrating</tspan>
+            <tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451"
+                y="231">•</tspan>
+            <tspan font-weight="700" font-size="16" x="28.2755" y="231">Frequent hygiene issues </tspan>with test code
+            check-ins holding up the deployment pipeline<tspan fill="#666666"
+                font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451" y="270">•</tspan>
+            <tspan font-weight="700" font-size="16" x="28.2755" y="270">Ensuring consistency</tspan>
+            <tspan font-size="16" x="169.655" y="270">and best practices in test development across projects</tspan>
+            <tspan fill="#666666" font-family="Arial,Arial_MSFontService,sans-serif" font-size="14" x="-1.72451"
+                y="309">•</tspan>
+            <tspan font-weight="700" font-size="16" x="28.2755" y="309">Consolidated reporting</tspan>
+        </text>
+    </g>
+</svg>
