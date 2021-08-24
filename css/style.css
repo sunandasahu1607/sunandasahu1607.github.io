@@ -560,9 +560,63 @@ textarea.input {
 
 @media (max-width: 767px) {
   .hero-area {
-    padding: 250px 0 150px;
+    padding: 250px 24px 150px 24px;
     overflow: hidden;
   }
+  body , .p-normal , p , a{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  
+  .p-large{
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  }
+  
+  .p-small{
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  }
+  
+  
+  p-lg, .paragraph-lg {
+    font-size: 22px;
+  }
+  
+  h1 , .h1{
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1.35;
+  }
+  
+  h2 , .h2 {
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.35;
+  }
+  
+  h3 , .h3 {
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.35;
+  }
+  
+  
 }
 
 .hero-area h1 {
