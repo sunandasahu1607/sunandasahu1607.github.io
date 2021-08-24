@@ -81,8 +81,8 @@
 
 <section class="section">
 
-  <div class="container">
-    <object data="project-1/Slide3.SVG" width="100%"> </object>
+  <div class="container slide_list" id="slide_list">
+   
   </div>
 </section>
 
@@ -323,6 +323,17 @@
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+<script>
+   var out1='';
+ for (var i = 3; i < 22; i++) {
+
+  out1 +=' <object data="project-1/Slide'+i+'.SVG" width="100%"> </object>'
+  
+           
+        }
+        document.getElementById('slide_list').innerHTML = out1;
+
+</script>
 
 </body>
 </html>
