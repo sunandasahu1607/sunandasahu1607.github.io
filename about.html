@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
   <meta charset="utf-8">
@@ -31,8 +31,8 @@
 <header>
   <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
-        <img src="images/logo.png" width="112" height="28">
+      <a class="navbar-item" href="/">
+        <img src="images/header_logo.png" width="112" height="28">
       </a>
   
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navigation">
@@ -44,15 +44,16 @@
   
     <div id="navigation" class="navbar-menu">
       <div class="navbar-end">
-        <a href="index.html" class="navbar-item">Home</a>
-        <a href="about.html" class="navbar-item">About</a>
-        <a href="blog.html" class="navbar-item">blog</a>
-        <a href="portfolio.html" class="navbar-item">portfolio</a>
-        <a href="contact.html" class="navbar-item">contact</a>
+       
+        <a href="about" class="navbar-item">About Me</a>
+        <a href="portfolio" class="navbar-item">Portfolio</a>
+        <a href="blog" class="navbar-item">Blogs</a>
+      
       </div>
     </div>
   </nav>
 </header>
+
 
 <!-- page title -->
 <section class="page-title-alt has-background-primary is-relative">
@@ -351,7 +352,7 @@
 <section class="section has-background-primary is-relative testimonial-bg-shapes">
   <div class="container">
     <div class="has-text-centered">
-      <h2 class="section-title has-text-white">Honors & Awards</h2>
+      <h2 class="section-title has-text-white">Testimonials</h2>
     </div>
     <div class="columns is-centered">
       <div class="column is-10 testimonial-slider">
@@ -494,37 +495,6 @@
 </section>
 <!-- /blog -->
 
-<!-- contact -->
-<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
-  <div class="container">
-    <div class="has-text-centered">
-      <h2 class="section-title">Contact Info</h2>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-8-desktop">
-        <div class="has-background-white card-content has-text-centered shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
-          <form action="#" class="columns is-multiline is-centered">
-            <div class="column is-6-tablet">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="input">
-            </div>
-            <div class="column is-6-tablet">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="input">
-            </div>
-            <div class="column is-full">
-              <textarea name="message" id="message" class="input"
-                placeholder="Type Message Here"></textarea>
-            </div>
-            <div class="column is-6-tablet is-10">
-              <button class="button is-primary is-fullwidth">send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /contact -->
 
 <!-- footer -->
 <footer class="has-background-dark footer-section">
@@ -533,15 +503,15 @@
       <div class="columns">
         <div class="column is-4-tablet">
           <h5 class="has-text-light">Email</h5>
-          <p class="has-text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+          <p class="has-text-white paragraph-lg font-secondary " id='my_email'>...</p>
         </div>
         <div class="column is-4-tablet">
           <h5 class="has-text-light">Phone</h5>
-          <p class="has-text-white paragraph-lg font-secondary">+880 2544 658 256</p>
+          <p class="has-text-white paragraph-lg font-secondary "id='phone'>...</p>
         </div>
         <div class="column is-4-tablet">
-          <h5 class="has-text-light">Address</h5>
-          <p class="has-text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+          <h5 class="has-text-light">Lives In</h5>
+          <p class="has-text-white paragraph-lg font-secondary " id='address'>...</p>
         </div>
       </div>
     </div>
@@ -551,10 +521,11 @@
       <script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> a theme by <a href="themefisher.com">themefisher.com</a></p>
+      </script> Sunanda Sahu </p>
   </div>
 </footer>
 <!-- /footer -->
+
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>

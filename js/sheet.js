@@ -13,7 +13,7 @@
 
     
     var fade = document.querySelector('.fade');
-    fade.style.opacity = 0;
+   if(fade!=null) fade.style.opacity = 0;
 
     fetch(contentRepoURL)
     .then(function (response) {
@@ -52,13 +52,14 @@ function appendData(data) {
    
 
     setTimeout(function(){ 
+        document.getElementById('phone').innerHTML=data.phone;
+        document.getElementById('my_email').innerHTML=data.email;
+        document.getElementById('address').innerHTML=data.address;
         document.getElementById('my_name').innerHTML=data.name;
         document.getElementById('greeting').innerHTML=data.greeting;
         document.getElementById('my_title').innerHTML=data.title;
         document.getElementById('my_intro').innerHTML=data.intro;
-        document.getElementById('phone').innerHTML=data.phone;
-        document.getElementById('my_email').innerHTML=data.email;
-        document.getElementById('address').innerHTML=data.address;
+        
       
         // Fade in
         fade.style.opacity = 1;
