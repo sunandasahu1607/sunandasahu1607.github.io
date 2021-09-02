@@ -97,15 +97,23 @@ var imageRepoURL=baseUrl
     });
 
     function appendImages(data) {
-        var baseImageUrl='https://drive.google.com/uc?export=view&id='
-        document.getElementById("profile_pic").src = baseImageUrl + data.profile_pic;
+        
+        var driveURL=data.profile_pic_url;
+        var pathArray = driveURL.split( '/' );
 
-    
-        // for (var i = 0; i < data.length; i++) {
-        //     var div = document.createElement("div");
-        //     div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-        //     mainContainer.appendChild(div);
-        // }
+        var baseImageUrl='https://drive.google.com/uc?export=view&id=';
+      
+        [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+            img.setAttribute('src', img.getAttribute('data-src'));
+            img.onload = function() {
+                img.removeAttribute('data-src');
+            };
+        });
+
+        document.getElementById("profile_pic").src =  baseImageUrl + pathArray[5];
+
+       
+      
     }
 
 
@@ -151,16 +159,35 @@ var imageRepoURL=baseUrl
 
         for(var i=0;i<work_list.length;i++)
         {
-            output+=
-            '<div class="column is-one-third mb-20">'
-            +
+        //     output+=
+        //     '<div class="column is-one-third mb-20 has-text-centered">'
+        //     +
+        //    ' <img src="images/experience/icon-1.png" alt="icon">'
+        //    +
+        //     '<p class="mb-10">'+work_list[i].date+'</p>'
+        //     +
+        //     '<h5 class="mb-10">'+work_list[i].profile+' ・ '+work_list[i].company+'</h5>'
+        //     +
+        //     '<h6 class="has-text-light">'+work_list[i].location+'</h6></div>';
 
+            output+=
+           ' <div class="column is-6 mb-80">'
+           +
+           ' <div class="media"><div class="media-left"><i class="ti-medall icon icon-light icon-bg has-background-white shadow is-rounded is-block"></i></div>'
+           +
+          ' <div class="media-content">'
+          +
+               ' <h6 class="has-text-light pb-1">'+work_list[i].date+'</h6>'
+               +
+               ' <h4>'+work_list[i].profile+'</h4>'
+               +
+               ' <h5 >'+work_list[i].company+'</h5>'
            
-            '<p class="mb-10">'+work_list[i].date+'</p>'
-            +
-            '<h5 class="mb-10">'+work_list[i].profile+' ・ '+work_list[i].company+'</h5>'
-            +
-            '<h6 class="has-text-light">'+work_list[i].location+'</h6></div>';
+                +
+                '<h6 class="has-text-light pt-1">'+work_list[i].location+'</h6>'
+                +
+                '</div></div></div>';
+   ;
             
           
         }
