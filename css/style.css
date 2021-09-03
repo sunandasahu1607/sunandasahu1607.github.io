@@ -30,8 +30,8 @@ body , .p-normal , p , a{
   font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
-line-height: 29px;
+font-size: 18px;
+line-height: 1.4;
 }
 
 .p-small{
